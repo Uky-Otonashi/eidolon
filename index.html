@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="viewprot" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>Eidolon.Me</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/customs.css">
+	<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top text-center cleanPM">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="fales" aria-controls="navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">Eidolon.<b class="red">Me</b></a>
+			</div><!--/.nav-header -->
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Groups</a></li>
+					<li><a href="#">AVG</a></li>
+					<li><a href="#">RPG</a></li>
+					<li><a href="#">Forum</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div><!--/.container -->
+	</nav>
+
+	<!--start-image-slider-->
+	<div class="camera_wrap" id="camera_wrap_1">
+		<div data-thumb="img/thumbs/bridge.jpg" data-src="img/slider1.jpg">
+			<div class="camera_caption fadeFromBottom">
+				Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+			</div>
+		</div>
+		<div data-thumb="img/thumbs/leaf.jpg" data-src="img/slider2.jpg">
+			<div class="camera_caption fadeFromBottom">
+				It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+			</div>
+		</div>
+		<div data-thumb="img/thumbs/road.jpg" data-src="img/slider3.jpg">
+			<div class="camera_caption fadeFromBottom">
+				<em>It's completely free</em> (even if a donation is appreciated)
+			</div>
+		</div>
+		<div data-thumb="img/thumbs/sea.jpg" data-src="img/slider4.jpg">
+			<div class="camera_caption fadeFromBottom">
+				Camera slideshow provides many options <em>to customize your project</em> as more as possible
+			</div>
+		</div>
+	</div><!-- #camera_wrap_1 -->	
+	<!--End-image-slider-->
+
+
+	<script type='text/javascript' src='js/jquery-3.1.0.min.js'></script>
+	<script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+	<script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+	<script type='text/javascript' src='js/camera.min.js'></script>
+	<script type="text/javascript">
+		jQuery(function(){
+			jQuery('#camera_wrap_1').camera({
+				height: '45.3%',
+				pagination: false
+			});
+		});
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.cleanPM{
+	padding: 0;
+	margin: 0;
+	height: 10%;
+}
+.navbar-static-side ul li{
+	border-bottom:1px solid #e7e7e7;
+}
+.sidebar-search{
+	padding:15px;
+}
+.red{
+	color: red;
+}
+.sub-navbar{
+	min-height: 30px;
+	height: 30px;
+}
+.sub-navbar ul li a{
+	padding: 0;
+	line-height: 30px;
+	color: red;
+	margin: 0 10px;
+}
+.split{
+	width: 0px;
+}
+.split::after{
+	content: '';
+	height: 16px;
+	border-right: 1px solid rgba(157, 204, 182, 0.25);
+}
